@@ -4,6 +4,11 @@ INTRODUCTION
 FancyPrompt will help you customizing your prompt (local shell and ssh) with some great ascii arts and useful info.
 It works with templates, so, feel free to adjust the templates to your needs.
 
+PREVIEW
+=======
+
+![preview](preview.png)
+
 PREQUISITE
 ==========
 
