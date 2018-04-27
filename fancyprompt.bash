@@ -39,7 +39,7 @@ fi
     MOTD_ART=$motdpart envsubst < $tmpldir/motd > $outdir/motd
 
     # ISSUE generation
-    issuepart=`figlet -f "fonts/big" "$sname"`
+    issuepart=`figlet -f "fonts/big" "$sname | sed 's/\\/\\\\/g"`
     ISSUE_ART=$issuepart OS_DESC=$releasepart envsubst < $tmpldir/issue > $outdir/issue
 } 2>/dev/null || { 
     echo -e "\n[1;31m*** ERROR: Please install 'figlet' before using this script ! ***[0m"
