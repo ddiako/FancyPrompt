@@ -4,12 +4,12 @@
 outdir="out"
 tmpldir="tmpl"
 
-if [ -d $outdir ]
+if [ ! -d $outdir ]
 then
     echo -e "\n[1;31m*** ERROR: Your output directory doesn't exist ! ***[0m"
     exit 1
 fi
-if [ -d $tmpldir ]
+if [ ! -d $tmpldir ]
 then
     echo -e "\n[1;31m*** ERROR: Your template directory doesn't exist ! ***[0m"
     exit 1
