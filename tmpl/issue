@@ -1,0 +1,11 @@
+[1;34m
+${ISSUE_ART}
+[0m
+    ${OS_DESC} \n \l - Kernel v\r
+
+[1;31m
+    Nat  : \4{enp0s3}
+    Priv : \4{enp0s8}
+[0m
+
+
