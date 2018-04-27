@@ -33,19 +33,20 @@ Information on network interface should be adapted to your needs.
 SYNTAX FOR /etc/issue
 =====================
 
-\b   Insert the baudrate of the current line.
-\d   Insert the current date.
-\s   Insert the system name, the name of the operating system.
-\l   Insert the name of the current tty line.
-\m   Insert the architecture identifier of the machine, e.g., i686.
-\n   Insert the nodename of the machine, also known as the hostname.
-\o   Insert the domainname of the machine.
-\r   Insert the release number of the kernel, e.g., 2.6.11.12.
-\t   Insert the current time.
-\u   Insert the number of current users logged in.
-\U   Insert the string "1 user" or "<n> users" where <n> is the
-     number of current users logged in.
-\v   Insert the version of the OS, e.g., the build-date etc.
+| switch | Description |
+| -------| ---------------------------------------------------------------------------------------- |
+| \b | Insert the baudrate of the current line. |
+| \d | Insert the current date. |
+| \s | Insert the system name, the name of the operating system. |
+| \l | Insert the name of the current tty line. |
+| \m | Insert the architecture identifier of the machine, e.g., i686. |
+| \n | Insert the nodename of the machine, also known as the hostname. |
+| \o | Insert the domainname of the machine. |
+| \r | Insert the release number of the kernel, e.g., 2.6.11.12. |
+| \t | Insert the current time. |
+| \u | Insert the number of current users logged in. |
+| \U | Insert the string "1 user" or "<n> users" where <n> is the number of current users logged in. |
+| \v | Insert the version of the OS, e.g., the build-date etc. |
 
 LICENCE
 =======
