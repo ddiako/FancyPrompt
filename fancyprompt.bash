@@ -1,5 +1,5 @@
 #/bin/bash
-# This script is released under the MIT license, see https://github.com/ddiako/fancyprompt
+# This script is released under the MIT license, see https://github.com/ddiako/FancyPrompt
 
 outdir="out"
 tmpldir="tmpl"
